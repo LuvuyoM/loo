@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sisbusiswe Comp-Tech High School\Home_Page</title>
+    <link rel="icon" type="image/x-icon" href="Images/sibuLogo.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="School-name">
+            <p>Sbusisiwe Comp-Tech High School</p>
+        </div>
+        <img class="logo" src="Images/sibuLogo.png" height="50" alt="scth logo">
+        <ul class="unlist">
+            <li><a href="Home_Page.html">Home</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Accademics_Page.html">Academics</a></li>
+            <li><a href="Sports.html">Sport</a></li>
+            <li><a href="Cultural.html">Cultural</a></li>
+            <li><a href="School Calender.html">School Calender</a></li>
+            <li><a href="Learner_Portal.html">Learner Portal</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+            <li><button class="apply"><a href="App.aspx">Apply Now</a></button></li>
+        </ul>
+    </nav>
+    <div class="video">
+        <img src="Sbu_Images/sbusisiwe top view.jpg" class="top_view" />
+        <p class="blink">SIBUSISIWE COMP-TECH HIGH SCHOOL </p>
+        <div class="established">
+            <p>ESTABLISHED  IN 1954<p>
+        </div>
+    </div>
+
+
+    <hr />
+    <div class="wrapper">
+        <div class="paragraph about">
+            <h3 class="yeah">About Sbusisiwe Comp-Tech</h3>
+            <p>
+                The school was founded by Sibusisiwe Violet Makhanya [ 1894 – 1971 ] who used her house to render the initial classes
+                for the community of Umbumbulu.
+                She was a social worker and philanthropist. Over the years the school has become the beacon of hope for the people
+                of Umbumbulu and this gives true meaning to the dream of its founder.<br />
+                <br />
+                In the last 18 years since 2005 the school has become the centre for academic excellence in the wider Umlazi District
+                with Matric Pass Rate stabilizing between the 90% - 98% in the last 10 years. This school now has (number of learners) learners ( 2023 ). Our curriculum package
+                has a wide range of subjects including Computer Applications Technology ( CAT ),
+                Maritime Economics, Engineering Graphics & Design, 4 Technical Subjects and most of the conventional academic subjects. Despite the
+                very large numbers in our classes, our school has been consistent in academic performance. We remain true to our vision of academic excellence
+                and defeating the odds of being a rural school.
+            </p>
+        </div>
+        <div id="principal-pic">
+            <img src="Images/Principal_Duma.jpg" />
+            <figcaption id="caption"><i><b>Image:</b> Sibusisiwe Comp-Tech High School Principal, Mr Duma. </i></figcaption>
+        </div>
+
+        <div class="paragraph principal_Words">
+            <h3>Welcoming words from the Principal</h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="picture">
+        <p>
+            <img class="pic1" src="Sbu_Images/20230222_084809.jpg" />
+            <img class="pic1" src="Sbu_Images/20230222_090152.jpg" />
+            <img class="pic1" src="Sbu_Images/20230222_090233.jpg" />
+        </p>
+        <div class="b1">
+            <button onclick="location.href='School_Gallary.html'" class="btn btn1">View Gallary</button>
+        </div>
+    </div>
+    <hr />
+
+    <div class="containeer">
+        <div class="box">
+            <img src="Sbu_Images/20230222_084809.jpg" width="320" height="250" class="image" />
+            <h2>01</h2>
+            <h3>Academics</h3>
+            <p>
+                Academics is our core business. With a phenomenal
+                team of highly trained, professional staff who are
+                fully committed to providing the best educational experience possible.
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="Images/cal.PNG" width="320px" height="250px" class="image" />
+            <h2>02</h2>
+            <h3>2023 School Terms</h3>
+            <p><b>Term 1</b><br />18 January - 31 March</p>
+            <p><b>Term 2</b><br />12 April - 23 June</p>
+            <p><b>Term 3</b><br />18 July - 29 September</p>
+            <p><b>Term 4</b><br />10 October- 13 December</p>
+        </div>
+
+        <div class="box">
+            <img src="Images/achieve.PNG" width="320px" height="250px" class="image" />
+            <h2>03  </h2>
+            <h3>School Achievements</h3>
+            <p>
+                Three KwaZulu-Natal pupil win big at national
+                green entrepreneurship competition,
+                including a trip to the US.
+            </p>
+        </div>
+    </div>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+        .paragraph1 {
+            margin: -350px auto 100px 0px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .Notice {
+            animation: blinker 2s linear infinite;
+            margin-top: -150px;
+            font-size: 16pt;
+            color: Red;
+            text-align: center;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        @media (max-width:720px) {
+            .paragraph1 {
+                margin: -400px auto -20px 0px;
+            }
+
+            .Notice {
+                margin-top: 50px;
+            }
+        }
+
+        @keyframes blinker {
+
+            40% {
+                opacity: 0;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        /*////////////////////////////apply///////////////////////*/
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .video {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .top_view {
+            width: 100%;
+            height: 600px;
+            opacity: .6;
+        }
+
+        #principal-pic {
+            margin: -450px auto auto 20px;
+        }
+
+        #caption {
+            font-size: 10pt;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px auto 20px auto;
+        }
+
+        h3 {
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .paragraph {
+            box-shadow: .5px .5px 1.5px #00B050;
+            margin-bottom: 100px;
+            width: 49%;
+        }
+
+            .paragraph.about {
+                margin-top: 50px;
+                margin-left: 47%;
+                font-size: 11pt;
+            }
+
+        .picture {
+            margin-left: 47%;
+            font-size: 11pt;
+            text-align: center;
+            margin-top: -150px;
+        }
+
+        .pic1 {
+            height: 200px;
+            width: 220px;
+            padding: 5px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+        }
+
+        .btn {
+            border: 1px solid white;
+            background: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+        }
+
+        .btn1 {
+            color: white;
+        }
+
+            .btn1:hover {
+                color: #00B050;
+                border: 1px solid yellow;
+            }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background: #00B050;
+            z-index: -1;
+            transition: 0.8s;
+        }
+
+        .btn1::before {
+            top: 0;
+            border-radius: 0 0 50% 50%;
+        }
+
+        .btn1::before {
+            height: 180%;
+        }
+
+        .btn1:hover::before {
+            height: 0%;
+        }
+
+        .paragraph.principal_Words {
+            width: 47%;
+        }
+
+        .paragraph p {
+            margin-left: 20px;
+        }
+
+        .apply {
+            background: #E8EE04;
+            border-radius: 10px;
+            cursor: pointer;
+            height: 35px;
+            width: 100px;
+            color: blue;
+        }
+
+        .logo {
+            margin: 15px auto auto -470px;
+        }
+
+        nav {
+            background-color: #00B050;
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 10px;
+            position: fixed;
+            z-index: 100;
+        }
+
+            nav .School-name {
+                float: left;
+                margin-left:70px;
+            }
+
+                nav .School-name p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            nav .unlist {
+                float: right;
+            }
+
+                nav .unlist li {
+                    list-style: none;
+                    display: inline-block;
+                }
+
+                    nav .unlist li a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 14px;
+                        padding: 0px 5px;
+                    }
+
+                        nav.unlist li a:hover {
+                            color: yellow;
+                        }
+
+        .checkbtn {
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        nav .unlist li a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+        /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+        .blink {
+            animation: blinker 15s linear infinite;
+            color: black;
+            font-weight: bold;
+            font-size: 40pt;
+            text-align: center;
+            overflow: hidden;
+            margin-top: -350px;
+            margin-bottom: 200px;
+            letter-spacing: 4px;
+        }
+
+        .established p {
+            font-weight: bold;
+            font-size: 12pt;
+            text-align: center;
+            overflow: hidden;
+            margin-top: -200px;
+            margin-bottom: 250px;
+            letter-spacing: 4px;
+        }
+
+        @keyframes blinker {
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+        @media(max-width:1250px) {
+            .paragraph.about {
+                margin-left: 600px;
+                width: 49%;
+                margin-top: 200px;
+            }
+
+            #principal-pic {
+                margin-left: 10px;
+                margin-top: -500px;
+            }
+        }
+
+        @media (max-width:1300px) {
+
+            nav {
+                padding: 0px 30px;
+                width: 100%;
+            }
+
+            .checkbtn {
+                display: block;
+                margin-top: 0px;
+            }
+
+            nav .School-name {
+                float: left;
+                margin-left: 50px;
+            }
+
+                nav .School-name p {
+                    font-size: 16px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            .logo {
+                margin: 15px auto auto -400px;
+                height: 50px;
+                width: 50px;
+            }
+
+            nav .unlist {
+                width: 100%;
+                height: 300px;
+                background-color: #00B050;
+                position: fixed;
+                top: 75px;
+                left: -100%;
+                text-align: center;
+                transition: 0.4s ease;
+                z-index: 100;
+            }
+
+                nav .unlist li {
+                    display: block;
+                    margin: 10px 0px;
+                    line-height: 20px;
+                }
+
+            #check:checked ~ .unlist {
+                left: 0;
+            }
+
+            .back-Img {
+                margin: -20px auto 0px auto;
+            }
+
+            .blink {
+                margin-bottom: 30px;
+            }
+
+            .established p {
+                font-weight: bold;
+                font-size: 12pt;
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 70px;
+            }
+
+            .picture {
+                margin-left: 5px;
+                font-size: 11pt;
+                text-align: center;
+                margin-top: 150px;
+            }
+
+            .pic1 {
+                height: 200px;
+                width: 220px;
+                padding: 5px;
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+            }
+
+            .paragraph.about {
+                margin-left: 10px;
+                width: 96%;
+                margin-top: 30px;
+                margin-bottom: 550px;
+            }
+
+            .paragraph.principal_Words {
+                margin-left: 10px;
+                width: 96%;
+
+            }
+           #principal-pic{
+       
+               text-align:center;
+           }
+        }
+
+        hr {
+            margin-top: 10px;
+        }
+
+        .containeer {
+            width: 100%;
+            background: linear-gradient(white, white 50%, #00B050 50%, white 100%);
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            z-index: -1;
+        }
+
+            .containeer .box {
+                position: relative;
+                width: 320px;
+                background: white;
+                padding: 100px 40px 60px;
+                margin: 10px 10px 10px 10px;
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+            }
+
+                .containeer .box::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #FDFD6F;
+                    transform: scaleY(0);
+                    transform-origin: top;
+                    transition: transform 0.5s;
+                    border-color: green;
+                }
+
+                .containeer .box:hover:before {
+                    transform: scaleY(1);
+                    transform-origin: bottom;
+                    transition: transform 0.5s;
+                }
+
+                .containeer .box h2 {
+                    position: absolute;
+                    left: 40px;
+                    top: 30px;
+                    font-size: 4em;
+                    font-weight: 800;
+                    z-index: 1;
+                    opacity: 0.5;
+                    transition: 0.5s;
+                    color: white;
+                }
+
+                .containeer .box:hover h2 {
+                    opacity: 1;
+                    color: white;
+                    transform: translateY(-40px);
+                }
+
+                .containeer .box h3 {
+                    position: relative;
+                    font-size: 1.5em;
+                    z-index: 2;
+                    color: black;
+                    transition: 0.5s;
+                }
+
+                .containeer .box p {
+                    position: relative;
+                    z-index: 2;
+                    color: black;
+                    transition: 0.5s;
+                }
+
+                .containeer .box:hover h3, .containeer .box:hover p {
+                    color: white;
+                }
+
+                .containeer .box:hover h5, .containeer .box:hover p {
+                    color: white;
+                }
+
+        .image {
+            margin-left: -40px;
+        }
+        /*/////////////apply//////////////////*/
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+            .footer-col h4 {
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 25px;
+                font-weight: 500;
+                position: relative;
+            }
+
+                .footer-col h4::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    background-color: green;
+                    height: 2px;
+                    box-sizing: border-box;
+                    width: 50px;
+                }
+
+            .footer-col ul li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            .footer-col ul li a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+                font-size: 12px;
+            }
+
+                .footer-col ul li a:hover {
+                    color: yellow;
+                    padding-left: 8px;
+                }
+
+            .footer-col .social-links a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+
+                .footer-col .social-links a:hover {
+                    color: #24262b;
+                    background-color: #ffffff;
+                }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+        /*////////////////////////////////////////////////////////////////////////////*/
+        .developers {
+            background: green;
+            width: 100%;
+            height: 60px;
+            margin-bottom: -100px;
+            align-items: center;
+        }
+
+        .parag {
+            text-align: right;
+            margin-top: -20px;
+            padding-right: 10px;
+        }
+
+        .copyright {
+            padding-left: 10px;
+        }
+
+        @media(max-width:1250px) {
+            .parag {
+                text-align: right;
+                margin-top: -5px;
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>School</h4>
+                    <ul>
+                        <li><a href="About_Us.html">about us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">code of conduct</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="https://localhost:44398/About_Us.html#:~:text=Frequantly%20Asked%20Queastions">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Postal Address</h4>
+                    <ul>
+                        <li><a href="#"Private Bag X1010</a></li>
+                        <li><a href="#">Umbumbulu</a></li>
+                        <li><a href="#">4105</a></li>
+                        <li><a href="#">Kwazulu Natal</a></li>
+                        
+                    </ul>
+                </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a class="facebook" href="https://www.facebook.com/S.C.T.H.S.1930/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="facebook" href="https://www.youtube.com/@sibusisiwecomptech409"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class=" developers">
+            <p class="copyright"><b>Copyright 2023 © Sbusisiwe Comp.Tech High</b></p>
+            <p class="parag">Developed by Brothers Investement <br />established 2023</p>
+            <p></p>
+        </div>
+    </footer>
+    <style>
+        .postal {
+            font-size: 12px;
+            margin-right: 150px;
+            font-weight: 300;
+            color: #bbbbbb;
+        }
+
+            .postal ul li {
+                margin-bottom: 10px;
+            }
+
+            .postal h4 {
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 30px;
+                font-weight: 500;
+            }
+
+                .postal h4::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    background-color: green;
+                    height: 2px;
+                    box-sizing: border-box;
+                    width: 50px;
+                }
+    </style>
+</body>
+</html>
